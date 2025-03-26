@@ -15,10 +15,12 @@ Installation
    PORT=5000
 
 Running the Server
+
 To start the Express server, run:
 nodemon server/server.js
 
 CLI Setup
+
 To ensure the CLI command works globally, make sure package.json includes the following:
 "bin": {
   "github-activity": "./cli.js"
@@ -28,6 +30,7 @@ Also, ensure cli.js starts with:
 #!/usr/bin/env node
 
 Install the CLI Tool Globally
+
 Option 1: Using npm link (For Development)
 
 Run inside the project directory:
