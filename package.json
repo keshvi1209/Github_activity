@@ -18,6 +18,6 @@
     "express": "^4.21.2"
   },
   "bin": {
-    "github-activity": "./cli.js"
+    "github-activity": "./bin/cli.js"
   }
 }
