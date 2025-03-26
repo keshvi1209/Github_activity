@@ -23,11 +23,13 @@ To ensure the CLI command works globally, make sure package.json includes the fo
 "bin": {
   "github-activity": "./cli.js"
 }
+
 Also, ensure cli.js starts with:
 #!/usr/bin/env node
 
 Install the CLI Tool Globally
 Option 1: Using npm link (For Development)
+
 Run inside the project directory:
 npm link
 
@@ -35,6 +37,7 @@ Now, you can use the command globally:
 github-activity <GitHub-Username>
 
 Option 2: Using npm install -g . (For Deployment)
+
 Alternatively, install it globally like this:
 npm install -g .
 
