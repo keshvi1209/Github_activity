@@ -1,0 +1,20 @@
+const { program } = require("commander");
+const axios = require("axios");
+
+async function fetchGitHubActivity(username) {
+    try {
+        const response = await axios.get(`http://localhost:3000/activity/${username}`);
+        const { activities } = response.data;
+
+        console.log(`\n📌 Recent GitHub activity for '${username}':\n`);
+        activities.forEach(activity => console.log(activity));
+    } catch (error) {
+        console.log("❌ Error: Unable to fetch activity. Make sure the server is running.");
+    }
+}
+
+program
+    .argument("<username>", "GitHub username")
+    .action(fetchGitHubActivity);
+
+program.parse(process.argv);
