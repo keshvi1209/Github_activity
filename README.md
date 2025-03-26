@@ -32,10 +32,6 @@ Start the Express server with:
 ```sh
 nodemon server/server.js
 ```
-For production, use:  
-```sh
-npm start
-```
 
 ---
 
