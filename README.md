@@ -6,12 +6,13 @@ Installation
 
 1. Clone the repository:
    git clone https://github.com/keshvi1209/Github_activity.git
+   
    cd Github_activity
 
-2. Install dependencies:
+3. Install dependencies:
    npm install
 
-3. Create a `.env` file in the root directory and set the port number:
+4. Create a `.env` file in the root directory and set the port number:
    PORT=5000
 
 Running the Server
