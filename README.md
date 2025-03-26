@@ -1,6 +1,8 @@
 
 # GitHub Activity Fetcher  
 
+Sample solution for the github-user-activity challenge from https://roadmap.sh/projects/github-user-activity.
+
 This project consists of a **Node.js Express server** and a **CLI tool** that fetches recent GitHub activity for a given user.  
 
 
