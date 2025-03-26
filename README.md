@@ -1,6 +1,4 @@
-Here's the improved and well-structured version of your **README.md** file:  
 
-```md
 # GitHub Activity Fetcher  
 
 This project consists of a **Node.js Express server** and a **CLI tool** that fetches recent GitHub activity for a given user.  
@@ -83,26 +81,8 @@ github-activity <GitHub-Username>
 ## Example Usage  
 
 ```sh
-github-activity octocat
+github-activity keshvi1209
 ```
-This command will fetch and display the recent activity of the GitHub user **octocat**.
+This command will fetch and display the recent activity of the GitHub user **keshvi1209**.
 
 ---
-
-## License  
-This project is licensed under the **MIT License**.  
-
----
-
-## Author  
-Developed by **Keshvi1209**.  
-```
-
-### Changes & Improvements:  
-✅ **Better formatting** for readability  
-✅ **Consistent code block styling**  
-✅ **Clarified installation & usage instructions**  
-✅ **Added missing production server command**  
-✅ **Improved structure** for easy navigation  
-
-This version makes your **README** more professional and user-friendly. Let me know if you need further changes! 🚀
