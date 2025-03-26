@@ -37,9 +37,10 @@ server.get('/user/:username', async (req, res) => {
             return `✅ ${action} in ${repoName}`;
         });
 
-        res.json({ username, activities });
+        res.json({ activities });
+    } 
 
-    } catch (error) {
+    catch (error) {
         res.status(500).json({ error: "Failed to fetch GitHub activity." });
     }
 });

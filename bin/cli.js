@@ -7,7 +7,7 @@ async function fetchGitHubActivity(username)
 {
     try 
     {
-        const response = await axios.get(`http://localhost:3000/activity/${username}`);
+        const response = await axios.get(`http://localhost:5000/user/${username}`);
         const { activities } = response.data;
 
         console.log(`\n📌 Recent GitHub activity for '${username}':\n`);
