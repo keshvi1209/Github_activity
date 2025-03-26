@@ -38,7 +38,7 @@ Run inside the project directory:
 npm link
 
 Now, you can use the command globally:
-github-activity <GitHub-Username>
+github-activity GitHub-Username
 
 Option 2: Using npm install -g . (For Deployment)
 
@@ -46,5 +46,5 @@ Alternatively, install it globally like this:
 npm install -g .
 
 Now, run:
-github-activity <GitHub-Username>
+github-activity GitHub-Username
 
