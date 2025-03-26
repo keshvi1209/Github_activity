@@ -5,8 +5,8 @@ This project consists of a Node.js Express server and a CLI tool that fetches re
 Installation
 
 1. Clone the repository:
-   git clone https://github.com/your-repo/github-activity-fetcher.git
-   cd github-activity-fetcher
+   git clone https://github.com/keshvi1209/Github_activity.git
+   cd Github_activity
 
 2. Install dependencies:
    npm install
@@ -18,11 +18,26 @@ Running the Server
 To start the Express server, run:
 nodemon server/server.js
 
-Using the CLI Tool Globally
+CLI Setup
+To ensure the CLI command works globally, make sure package.json includes the following:
+"bin": {
+  "github-activity": "./cli.js"
+}
+Also, ensure cli.js starts with:
+#!/usr/bin/env node
 
-1. Install the CLI tool globally:
-   npm install -g .
-   
-2. Run the CLI tool from anywhere:
-   github-activity <GitHub-Username>
+Install the CLI Tool Globally
+Option 1: Using npm link (For Development)
+Run inside the project directory:
+npm link
+
+Now, you can use the command globally:
+github-activity <GitHub-Username>
+
+Option 2: Using npm install -g . (For Deployment)
+Alternatively, install it globally like this:
+npm install -g .
+
+Now, run:
+github-activity <GitHub-Username>
 
