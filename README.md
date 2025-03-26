@@ -3,7 +3,6 @@
 
 This project consists of a **Node.js Express server** and a **CLI tool** that fetches recent GitHub activity for a given user.  
 
----
 
 ## Installation  
 
@@ -24,7 +23,6 @@ Create a `.env` file in the root directory and add the following:
 PORT=5000
 ```
 
----
 
 ## Running the Server  
 
@@ -32,8 +30,6 @@ Start the Express server with:
 ```sh
 nodemon server/server.js
 ```
-
----
 
 ## CLI Setup  
 
@@ -72,7 +68,6 @@ Now, run:
 github-activity <GitHub-Username>
 ```
 
----
 
 ## Example Usage  
 
@@ -80,5 +75,3 @@ github-activity <GitHub-Username>
 github-activity keshvi1209
 ```
 This command will fetch and display the recent activity of the GitHub user **keshvi1209**.
-
----
